@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.RegisterActivity">
+
+    <TextView
+        android:id="@+id/register_welcoming"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="@string/register_page_welcoming"
+        android:textColor="@color/blue_agak_agak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/under_register_welcoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="@string/lets_join"
+        android:textColor="@color/blue_agak_agak"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_welcoming" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/register_name"
+        android:layout_width="345dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="345dp"
+        app:boxCornerRadiusBottomStart="22dp"
+        app:boxCornerRadiusBottomEnd="22dp"
+        app:boxCornerRadiusTopEnd="22dp"
+        app:boxCornerRadiusTopStart="22dp"
+        app:boxStrokeWidth="0dp"
+        app:boxBackgroundColor="@color/grey_agak_agak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <com.example.carappraisal.customview.NameCustomView
+            android:id="@+id/name_text_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_email"
+        android:layout_width="345dp"
+        android:layout_height="88dp"
+        app:boxBackgroundColor="@color/grey_agak_agak"
+        android:layout_marginTop="15dp"
+        app:boxCornerRadiusBottomEnd="22dp"
+        app:boxCornerRadiusBottomStart="22dp"
+        app:boxCornerRadiusTopEnd="22dp"
+        app:boxCornerRadiusTopStart="22dp"
+        app:boxStrokeWidth="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_name">
+        <com.example.carappraisal.customview.EmailCustomView
+            android:id="@+id/email_text_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_password"
+        android:layout_width="345dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="15dp"
+        app:boxBackgroundColor="@color/grey_agak_agak"
+        app:boxCornerRadiusBottomEnd="22dp"
+        app:boxCornerRadiusBottomStart="22dp"
+        app:boxCornerRadiusTopEnd="22dp"
+        app:boxCornerRadiusTopStart="22dp"
+        app:boxStrokeWidth="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_email" >
+        <com.example.carappraisal.customview.PasswordCustomView
+            android:id="@+id/password_text_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_google_lgn"
+        android:layout_width="345dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/blue_agak_agak"
+        android:fontFamily="@font/urbanist_bold"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

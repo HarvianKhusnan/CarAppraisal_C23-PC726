@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CarAppraisal</string>
+    <string name="welcoming_page">Let’s Join with us
+To get a good Price
+for you’re car</string>
+    <string name="login">Login</string>
+    <string name="pw">Password</string>
+    <string name="mail">Email</string>
+    <string name="email">Continue With Email</string>
+    <string name="login_page_welcoming">Login to Car
+Appraisal</string>
+    <string name="welcome_back">Hey! Welcome Back.</string>
+    <string name="password_length">Password harus 8 kata!</string>
+    <string name="email_empty">Email tidak boleh kosong</string>
+    <string name="wrong_email">Format email salah!</string>
+    <string name="register_page_welcoming">Sign Up to Car
+Appraisal</string>
+    <string name="lets_join">Let’s Join With us!</string>
+    <string name="name">Name</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

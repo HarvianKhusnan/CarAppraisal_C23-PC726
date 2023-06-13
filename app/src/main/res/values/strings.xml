@@ -21,4 +21,22 @@ Appraisal</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string-array name="data_photo">
+        <item>@drawable/toyota</item>
+        <item>@drawable/honda</item>
+        <item>@drawable/suzuki</item>
+        <item>@drawable/mitsubishi</item>
+        <item>@drawable/daihatsu</item>
+        <item>@drawable/mazda</item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item> Toyota</item>
+        <item> Honda</item>
+        <item> Suzuki</item>
+        <item> Mitsubishi</item>
+        <item>Daihatsu</item>
+        <item>Mazda</item>
+    </string-array>
 </resources>

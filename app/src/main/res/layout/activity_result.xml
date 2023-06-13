@@ -151,14 +151,15 @@
     <Button
         android:layout_width="310dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="60dp"
         android:backgroundTint="@color/blue_agak_agak"
         android:fontFamily="@font/urbanist_bold"
         android:text="Save Result"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

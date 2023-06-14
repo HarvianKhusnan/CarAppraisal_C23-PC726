@@ -16,18 +16,11 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(binding.root)
 
-        val registBtn : TextView = findViewById(R.id.click_here)
-        val loginBtn : Button = findViewById(R.id.button_lgn)
-
-        registBtn.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
-            startActivity(intent)
-        }
-        loginBtn.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
+       binding.clickHere.setOnClickListener {
+           val intent = Intent(this, RegisterActivity::class.java)
+           startActivity(intent)
+       }
     }
 }

@@ -26,7 +26,6 @@ class NameCustomView : AppCompatEditText {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        hint = resources.getString(R.string.name)
     }
 
     private fun init(){

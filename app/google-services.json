@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "863022425482",
+    "project_id": "capstone-project-87f8a",
+    "storage_bucket": "capstone-project-87f8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863022425482:android:2dd53ebe3a91d496a35473",
+        "android_client_info": {
+          "package_name": "com.example.carappraisal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863022425482-17m5spkv4b5kktlmtgq71f96j92ohtn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carappraisal",
+            "certificate_hash": "ca80420963ab0f1c58f0693ed75946ff84f75178"
+          }
+        },
+        {
+          "client_id": "863022425482-frmk1k5l9ouar2da7iic634kvvtnjl5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8NLO6CvjuKqZfQMhSTvsbeCAm8xcj9UY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863022425482-2fq6ajkeh4arsquqmfrgq82esjepiia2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

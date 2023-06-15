@@ -55,9 +55,12 @@
 
             <com.example.carappraisal.customview.EmailCustomView
                 android:id="@+id/email_text_login"
+                android:hint="Email"
+                android:fontFamily="@font/urbanist_bold"
+                android:textColorHint="@color/blue_agak_agak"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textEmailAddress"/>
+                android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -76,6 +79,9 @@
             app:layout_constraintTop_toBottomOf="@+id/login_email" >
             <com.example.carappraisal.customview.PasswordCustomView
                 android:id="@+id/password_text_login"
+                android:hint="Password"
+                android:fontFamily="@font/urbanist_bold"
+                android:textColorHint="@color/blue_agak_agak"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="textPassword"/>
@@ -91,6 +97,7 @@
             android:fontFamily="@font/urbanist_bold"
             android:text="@string/login"
             android:textSize="20sp"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.484"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,6 +111,7 @@
             android:fontFamily="@font/urbanist_bold"
             android:text="Login with google"
             android:textSize="20sp"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.484"
             app:layout_constraintStart_toStartOf="parent"

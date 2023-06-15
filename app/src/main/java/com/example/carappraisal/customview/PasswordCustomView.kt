@@ -30,7 +30,6 @@ class PasswordCustomView : AppCompatEditText {
     }
     override fun onDraw(canvas: Canvas?){
         super.onDraw(canvas)
-        hint = resources.getString(R.string.pw)
     }
 
     private fun init(){

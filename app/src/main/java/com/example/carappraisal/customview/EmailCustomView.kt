@@ -32,7 +32,6 @@ class EmailCustomView : AppCompatEditText {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        hint = resources.getString(R.string.mail)
     }
 
     private fun init(){
